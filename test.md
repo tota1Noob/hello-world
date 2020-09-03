@@ -1,10 +1,7 @@
-# Test
-Testing, testing.
+以管理员身份运行命令提示符
 
-1, 2, 1, 2.
+执行命令 bcdedit /set hypervisorlaunchtype off
 
-$$
-\frac{1}{2}
-$$
+重启，运行vm即可
 
-Over.
+如果想要恢复hyper启动，bcdedit / set hypervisorlaunchtype auto
